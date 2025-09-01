@@ -1,0 +1,59 @@
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Build output
+dist/
+build/
+.cache/
+.out/
+
+# Environment files
+.env
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor specific
+.vscode/
+.idea/
+*.swp
+
+# Temporary files
+*.tmp
+*.temp
+
+# Frontend specific (React/Tailwind/Vite)
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+frontend/dist/
+frontend/build/
+
+# Backend specific (Node.js/Express)
+backend/.vercel/
+backend/dist/
+backend/build/
+
+# Admin specific (React/Tailwind/Vite)
+admin/.next/
+admin/out/
+admin/.vercel/
+admin/dist/
+admin/build/
+
+# Vercel
+.vercel/
+.vercel_build_output/
+
+# Misc
+*.local
